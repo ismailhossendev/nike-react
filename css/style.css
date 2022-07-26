@@ -7,9 +7,21 @@
 h1{
     font-size: 80px;
 }
+.w-30{
+    width: 500px;
+}
+.w-65{
+    width: 65%;
+}
 
 @media screen and (max-width:576px) {
     h1{
         font-size: 50px;
+    }
+    .w-30{
+        width: 100%;
+    }
+    .w-65{
+        width: 100%;
     }
 }
